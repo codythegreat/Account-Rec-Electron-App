@@ -1,0 +1,48 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 38rem;
+}
+
+#table {
+  overflow: scroll;
+  width: 95vw;
+  tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin:0;
+    padding:0;
+
+    td {
+      border-left: 1px solid #444;
+      border-top: 1px solid #444;
+      border-right: 2px solid #444;
+      border-bottom: 2px solid #444;
+      margin: 0;
+      padding: 0;
+    }
+
+    .desc {
+      width: 35%;
+    }
+    .amt {
+      width: 20%;
+    }
+    .date {
+      width: 25%;
+    }
+    .batch {
+      width: 20%;
+    }
+
+    #header-desc, #header-amt, #header-date, #header-batch {
+      background-color: #bfb;
+    }
+  }
+}
+
+button {
+  margin: 10px auto; 
+}

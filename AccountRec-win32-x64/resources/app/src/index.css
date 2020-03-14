@@ -1,0 +1,60 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 38rem;
+}
+
+#table {
+  overflow: scroll;
+  width: 95vw;
+}
+
+#table tr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#table tr td {
+  border-left: 1px solid #444;
+  border-top: 1px solid #444;
+  border-right: 2px solid #444;
+  border-bottom: 2px solid #444;
+  margin: 0;
+  padding: 0;
+}
+
+#table tr .desc {
+  width: 35%;
+}
+
+#table tr .amt {
+  width: 20%;
+}
+
+#table tr .date {
+  width: 25%;
+}
+
+#table tr .batch {
+  width: 20%;
+}
+
+#table tr #header-desc, #table tr #header-amt, #table tr #header-date, #table tr #header-batch {
+  background-color: #bfb;
+}
+
+button {
+  margin: 10px auto;
+}
+/*# sourceMappingURL=index.css.map */
